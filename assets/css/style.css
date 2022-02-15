@@ -78,4 +78,29 @@ header nav ul li a {
 }
 /* hero style end */
 
+/* section headers style start*/
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex h1 {
+    font-size: 60px;
+    font-style: bold;
+    text-align: right;
+    color: #2f4f4f;
+    border-right: #2f4f4f solid;
+    padding: 5px;
+    margin-left: 300px;
+}
+
+.flex p {
+    font-size: 50;
+    padding-left: 10px;
+    margin-right: 300px;
+}
+
+
+
 
