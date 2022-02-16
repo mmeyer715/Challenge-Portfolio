@@ -123,10 +123,10 @@ header nav ul li a {
 }
 
 .flex-work img {
-    width: 900px;
+    width: 1090px;
     height: 400px;
     opacity: 75%;
-    border: #2f4f4f solid;
+    border: #2f4f4f solid 10px;
     margin: 50px;
 }
 
@@ -142,5 +142,19 @@ header nav ul li a {
     color: #2f4f4f;
     border-right: #2f4f4f solid;
     padding: 5px;
-    margin-left: 300px;
+    margin-left: 228px;
+}
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-info ul li a {
+    padding: 16px;
+    margin-left: 35px;
+    margin-right: 8px;
 }
