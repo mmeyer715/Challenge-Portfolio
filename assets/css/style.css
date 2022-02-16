@@ -101,6 +101,45 @@ header nav ul li a {
     margin-right: 300px;
 }
 
+.flex-work {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.flex-work h1 {
+    font-size: 60px;
+    font-style: bold;
+    text-align: right;
+    color: #2f4f4f;
+    border-right: #2f4f4f solid;
+    padding: 5px;
+    margin-left: 300px;
+}
 
+.flex-work a {
+    text-decoration: none;
+    color: #2f4f4f;
+}
 
+.flex-work img {
+    width: 100%;
+    opacity: 75%;
+    border: #2f4f4f solid;
+}
+
+.flex-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-contact h1 {
+    font-size: 60px;
+    font-style: bold;
+    text-align: right;
+    color: #2f4f4f;
+    border-right: #2f4f4f solid;
+    padding: 5px;
+    margin-left: 300px;
+}
