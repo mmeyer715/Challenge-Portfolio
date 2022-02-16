@@ -81,7 +81,6 @@ header nav ul li a {
 /* section headers style start*/
 .flex {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -92,18 +91,19 @@ header nav ul li a {
     color: #2f4f4f;
     border-right: #2f4f4f solid;
     padding: 5px;
-    margin-left: 300px;
+    margin-left: 279px;
 }
 
 .flex p {
     font-size: 50;
     padding-left: 10px;
+    margin-left: 35px;
     margin-right: 300px;
+    line-height: 1.5;
 }
 
 .flex-work {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -123,14 +123,15 @@ header nav ul li a {
 }
 
 .flex-work img {
-    width: 100%;
+    width: 900px;
+    height: 400px;
     opacity: 75%;
     border: #2f4f4f solid;
+    margin: 50px;
 }
 
 .flex-contact {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
