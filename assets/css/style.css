@@ -78,7 +78,7 @@ header nav ul li a {
 }
 /* hero style end */
 
-/* section headers style start*/
+/* about me style start*/
 .flex {
     display: flex;
     align-items: center;
@@ -101,7 +101,9 @@ header nav ul li a {
     margin-right: 300px;
     line-height: 1.5;
 }
+/* about me style end */
 
+/* styling work section start */
 .flex-work {
     display: flex;
     align-items: center;
@@ -129,7 +131,9 @@ header nav ul li a {
     border: #2f4f4f solid 10px;
     margin: 50px;
 }
+/* styling work section end */
 
+/* styling contact section start */
 .flex-contact {
     display: flex;
     align-items: center;
@@ -158,3 +162,4 @@ header nav ul li a {
     margin-left: 35px;
     margin-right: 8px;
 }
+/* styling contact section end */
