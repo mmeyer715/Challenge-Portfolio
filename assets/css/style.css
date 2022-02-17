@@ -100,6 +100,7 @@ header nav ul li a {
     margin-left: 35px;
     margin-right: 300px;
     line-height: 1.5;
+    color: #2f4f4f;
 }
 /* about me style end */
 
@@ -125,7 +126,7 @@ header nav ul li a {
 }
 
 .flex-work img {
-    width: 1090px;
+    width: 1110px;
     height: 400px;
     opacity: 75%;
     border: #2f4f4f solid 10px;
@@ -161,5 +162,11 @@ header nav ul li a {
     padding: 16px;
     margin-left: 35px;
     margin-right: 8px;
+}
+
+.contact-info li a {
+    color: #2f4f4f;
+    text-decoration: underline;
+    font-style: bold;
 }
 /* styling contact section end */
