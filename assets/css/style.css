@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 40px 20px 40px 0px;
+    padding: 35px 20px 11px 0px;
 }
 
 header h1 {
@@ -132,6 +132,17 @@ header nav ul li a {
     opacity: 75%;
     border: #2f4f4f solid 10px;
 }
+
+.work-smaller {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.work-smaller img {
+    border: black solid 5px;
+    align-items: center;
+    padding: 5px;
+}
 /* styling work section end */
 
 /* styling contact section start */
@@ -192,4 +203,17 @@ header nav ul li a {
     #about-me {
         margin-top: 20px;
     }
+    .flex p {
+        margin-right: 100px;
+    }
 }
+
+@media screen and (max-width: 1015px) {
+    .flex-work img {
+        width: 300px;
+    }
+    .flex p{
+        margin-right: 50px;
+    }
+}
+
