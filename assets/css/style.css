@@ -123,6 +123,7 @@ header nav ul li a {
 .flex-work a {
     text-decoration: none;
     color: #2f4f4f;
+    margin: 50px;
 }
 
 .flex-work img {
@@ -130,7 +131,6 @@ header nav ul li a {
     height: 400px;
     opacity: 75%;
     border: #2f4f4f solid 10px;
-    margin: 50px;
 }
 /* styling work section end */
 
@@ -170,3 +170,26 @@ header nav ul li a {
     font-style: bold;
 }
 /* styling contact section end */
+
+/* media queries */
+
+@media screen and (max-width:1680px) {
+    .flex-work img {
+        width: 900px;
+    }
+}
+
+@media  screen and (max-width: 1470px) {
+    .flex-work img {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .flex-work img {
+        width: 500px;
+    }
+    #about-me {
+        margin-top: 20px;
+    }
+}
