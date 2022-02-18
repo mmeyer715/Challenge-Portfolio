@@ -136,19 +136,14 @@ header nav ul li a {
 
 .work-smaller {
     display: flex;
-    place-content: flex-end;
-    margin-right: 162px;
+    justify-content: space-evenly;
+    margin-left: 381px;
 }
 
 .work-smaller img {
-    border: #2f4f4f solid 5px;
-    margin: 5px;
-    width: 447px;
-    height: 252px;    
-}
-
-.work-smaller a {
-    text-decoration: none;
+    border:#2f4f4f solid 5px;
+    width: 495px;
+    height: 200px;
 }
 /* styling work section end */
 
@@ -223,4 +218,3 @@ header nav ul li a {
         margin-right: 50px;
     }
 }
-
