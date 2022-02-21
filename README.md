@@ -8,7 +8,7 @@ Provide potential employers with a cohesive space to view my completed projects.
 *CSS
 
 ## Screenshot
-![screenshot of Maria Bean's Portfolio](./assets/images/screenshot-portfolio.png)
+![screenshot of Maria Bean's Portfolio](./assets/images/screenshot.png)
 
 ## Website
 https://mmeyer715.github.io/Challenge-Portfolio/
